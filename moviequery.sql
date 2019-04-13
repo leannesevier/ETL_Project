@@ -9,3 +9,11 @@ select *
 from awards
 left join metadata
 on awards.Film = metadata.Film;
+
+select *
+from awards
+left join metadata
+on awards.Film = metadata.Film
+where awards.Winner = 'Yes'; 
+
+
