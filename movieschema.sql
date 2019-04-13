@@ -1,5 +1,5 @@
 -- Create and use ETLMovieProject_db
-CREATE DATABASE ETLMovieProject;
+CREATE DATABASE ETLawardsidMovieProject;
 USE ETLMovieProject;
 
 -- Create Two Tables
