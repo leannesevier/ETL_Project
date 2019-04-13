@@ -6,9 +6,9 @@ USE ETLMovieProject;
 CREATE TABLE Awards (
   id INT PRIMARY KEY,
   Year TEXT,
-  Cermony INT,
+  Ceremony INT,
   Award TEXT,
-  Winner INT,
+  Winner TEXT,
   Name Text,
   Film Text
   );
@@ -16,7 +16,7 @@ CREATE TABLE Awards (
 CREATE TABLE Metadata (
   id INT PRIMARY KEY,
   Budget INT,
-  Release_Date INT,
+  Release_Date date,
   Revenue INT,
   Runtime INT,
   Film TEXT,
